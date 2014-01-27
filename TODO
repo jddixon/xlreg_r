@@ -1,7 +1,7 @@
 xlreg_r/TODO
 
 2013-12-25
-    * Makefile needs edits for Ruby
-        - specifically needs 'rprotoc PROTOFILE'
-    * .gitignore likewise
+    * Makefile needs edits for Ruby								        * DONE
+        - specifically needs 'rprotoc PROTOFILE'	    				* DONE
+    * .gitignore likewise                                               * DONE
     * install rvm (https://rvm.io/rvn/install)                          * DONE
