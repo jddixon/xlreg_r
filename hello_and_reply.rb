@@ -7,5 +7,9 @@ def clientEncryptHello(version, key)
 
   # XXX STUB
 
-  # returns a string, construed as a byte array
+  # Returns a string, construed as a byte array.  To clarify an
+  # obscure point: PKCS#1 v2.0 adds support for OAEP encoding and
+  # so is sometimes called PKCS1.2.  PKCS#1 without OAEP is called
+  # PKCS#1 v1.5.  But PKCS#1 implementations support both.
+  #
   key.public_encrypt(msg, OpenSSL::PKey::RSA::PKCS1_OAEP_PADDING)
