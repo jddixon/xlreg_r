@@ -4,6 +4,7 @@ xlreg_r/TODO
     * rebuild ruby from source                                          * DONE
         - ./configure --with-openssl-dir=/usr/bin                       * DONE
         - make, make check, make install                                * DONE
+        - gem install bindata                                           * DONE
 
 2013-12-25
     * Makefile needs edits for Ruby								        * DONE

@@ -1,8 +1,14 @@
 # xlreg_r/decimal_version.rb
 
-class DecimalVersion
+require 'bindata'
 
-  @value = 0
+# See bindata wiki.  Note particularly the array: f field in the example,
+# which is :uint32.  Also note how PascalStringReader is implemented,
+# with the length returned by :read_length
+
+class DecimalVersion < BinData::Record
+  endian :big
+  uint32 :val
 
   def initialize(aIn, bIn, cIn, dIn)
     raise if aIn.nil?
@@ -35,23 +41,23 @@ class DecimalVersion
       d = dIn
     end
 
-    @value = a | (b << 8) | (c << 16) | (d << 24)     
+    @val = a | (b << 8) | (c << 16) | (d << 24)     
   end
 
   def getA()
-    return @value & 0xff
+    return @val & 0xff
   end
 
   def getB()
-    return (@value >> 8) & 0xff
+    return (@val >> 8) & 0xff
   end
 
   def getC()
-    return (@value >> 16) & 0xff
+    return (@val >> 16) & 0xff
   end
 
   def getD()
-    return (@value >> 24) & 0xff
+    return (@val >> 24) & 0xff
   end
 
 end
