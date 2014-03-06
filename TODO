@@ -1,5 +1,10 @@
 xlreg_r/TODO
 
+2014-03-05
+    * rebuild ruby from source                                          * DONE
+        - ./configure --with-openssl-dir=/usr/bin                       * DONE
+        - make, make check, make install                                * DONE
+
 2013-12-25
     * Makefile needs edits for Ruby								        * DONE
         - specifically needs 'rprotoc PROTOFILE'	    				* DONE
