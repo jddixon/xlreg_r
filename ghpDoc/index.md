@@ -1,4 +1,4 @@
-# xlreg_r
+<h1 class="libTop">xlreg_r</h1>
 
 A Ruby client for the xlReg cluster registry.  **xlreg_r**
 makes it easy to create new small clusters some or all of whose members are
