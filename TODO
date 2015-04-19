@@ -1,5 +1,8 @@
-xlreg_r/TODO
+xlreg_rb/TODO
 
+2015-04-19
+    * install Ruby version of protocol buffers
+    * bring Ruby up to date
 2014-03-05
     * rebuild ruby from source                                          * DONE
         - ./configure --with-openssl-dir=/usr/bin                       * DONE

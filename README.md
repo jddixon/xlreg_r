@@ -1,9 +1,9 @@
-# xlreg_r
+# xlreg_rb
 
-A Ruby client for the xlReg cluster registry.  **xlreg_r**
+A Ruby client for the xlReg cluster registry.  **xlreg_rb**
 makes it easy to create new small clusters some or all of whose members are
 written in the programming language Ruby.  
-xlreg_r is expected to be used primarily for testing, where
+xlreg_rb is expected to be used primarily for testing, where
 the ability to create and launch new, unique, distinct clusters in seconds
 will be a major advantage.
 
@@ -101,7 +101,7 @@ Cluster members will communicate with one another and clients
 using protocols agreed-upon among themselves, but the xlReg registry
 has no knowledge of such protocols.
 
-**xlreg_r** is currently in development.  This is not
+**xlreg_rb** is currently in development.  This is not
 necessarily a description of running code; it is where we are going.
 
 xlReg is an [XLattice](http://jddixon.github.io/xlattice_go/) project.  More
@@ -157,7 +157,7 @@ your own server.
 ## Client Source Code
 
 This is best obtained through
-[this client's Github project page](https://github.com/jddixon/xlreg_r/).
+[this client's Github project page](https://github.com/jddixon/xlreg_rb/).
 
 ## Project Status
 

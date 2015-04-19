@@ -1,0 +1,4 @@
+pySloc -vC bash:txt:rb \
+    txt:p.proto txt:testDataTestTemplate \
+
+

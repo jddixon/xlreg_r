@@ -1,4 +1,4 @@
-# xlreg_r/decimal_version.rb
+# xlreg_rb/decimal_version.rb
 
 require 'bindata'
 

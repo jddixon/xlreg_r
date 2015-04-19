@@ -1,4 +1,4 @@
-# xlreg_r/hello_and_reply.rb
+# xlreg_rb/hello_and_reply.rb
 
 def clientEncryptHello(version, key)
   # Create a 56-byte random value, where iv is 16, aesKey is 32, 

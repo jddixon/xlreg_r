@@ -1,4 +1,4 @@
-# xlreg_r/xlreg_errors.rb
+# xlreg_rb/xlreg_errors.rb
 
 module XLRegErrors
 
