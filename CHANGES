@@ -1,5 +1,8 @@
 ~/dev/ruby/xlreg_rb/CHANGES
 
+v0.0.2
+    2015-06-05
+        * updated docs for regCred.dat 1.9.6                        SLOC  240
 v0.0.1
     2015-04-19
         * clean up initial version                                  SLOC  240
