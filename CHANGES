@@ -1,5 +1,12 @@
 ~/dev/ruby/xlreg_rb/CHANGES
 
+
+v0.0.4
+    2015-10-15
+        * update README/index.md for xlReg 1.9.10                   SLOC  240
+v0.0.3
+    2015-08-05
+        * update README/index.md for xlReg 1.9.9                    SLOC  240
 v0.0.2
     2015-06-05
         * updated docs for regCred.dat 1.9.6                        SLOC  240
