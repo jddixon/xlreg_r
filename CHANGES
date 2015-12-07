@@ -1,6 +1,9 @@
 ~/dev/ruby/xlreg_rb/CHANGES
 
 
+v0.0.5
+    2015-12-07
+        * add version.rb; minor edits to *.md                       SLOC  242
 v0.0.4
     2015-10-15
         * update README/index.md for xlReg 1.9.10                   SLOC  240
@@ -13,3 +16,4 @@ v0.0.2
 v0.0.1
     2015-04-19
         * clean up initial version                                  SLOC  240
+

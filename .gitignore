@@ -1,12 +1,11 @@
-junk*
 .committed
-.localgitignore
+CVS
+junk*
 .merkle
 .posted
-.sharedev
 .svn*
 *.swp
 .wrapped
-CVS
 *ZZZ
-*~
+.sharedev
+*.bak

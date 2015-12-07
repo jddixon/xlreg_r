@@ -1,5 +1,7 @@
 xlreg_rb/TODO
 
+2015-12-07
+    * add version.rb                                                    * DONE
 2015-04-19
     * install Ruby version of protocol buffers
     * bring Ruby up to date
