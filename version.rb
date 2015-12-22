@@ -1,4 +1,4 @@
 # xlreg_rb/version.rb
 
-VERSION      = "0.0.5"
-VERSION_DATE = "2015-12-07"
+VERSION      = "0.0.6"
+VERSION_DATE = "2015-12-22"
