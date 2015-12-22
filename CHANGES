@@ -1,6 +1,9 @@
 ~/dev/ruby/xlreg_rb/CHANGES
 
 
+v0.0.6
+    2015-12-22
+        * fix bad link
 v0.0.5
     2015-12-07
         * add version.rb; minor edits to *.md                       SLOC  242
@@ -16,4 +19,5 @@ v0.0.2
 v0.0.1
     2015-04-19
         * clean up initial version                                  SLOC  240
+
 
