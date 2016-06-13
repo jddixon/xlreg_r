@@ -4,8 +4,13 @@ if [ ! -z "${DEV_BASE// }" ]
 then
   cd $DEV_BASE/ruby/xlreg_rb
   
+  blListGen \
+    -d ../xlreg_rb \
+    -1L  \
+    -u $DVCZ_UDIR \
+    -X .ssh \
+    $@
   
-  pySloc -L rb  -X *.pb.rb -v $@
 else
   echo "DEV_BASE is not defined"
 fi
