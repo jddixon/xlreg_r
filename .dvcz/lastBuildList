@@ -7,17 +7,19 @@ zPjEShF9rvcNa9XEy1dKpcDz9Szbm2SlxOgM83fDDGtOq4SSCSqndtxrOvXXPB57
 H1mJV/FmerbXRPm5ERJVNIxtLk7Gr2Ce45FVlWyJGMhpfVlKkkk+bRQ02OFfazJI
 GQIDAQAB
 -----END RSA PUBLIC KEY-----
-xlreg_rb v0.0.8
-2016-06-13 15:38:05
+xlreg_rb v0.0.9
+2016-07-15 17:33:11
 # START CONTENT #
 xlreg_rb
  .copyright 32a362b2260b92f71ab35e13dbb20d6bd4e3da44
  .dvcz
-  projCfg 996c01461a5bc727f90c542eadbe1c3c44fd47ec
+  builds d1b7bdd20aeb02912aed083c83b8a0ffceb40a67
+  lastBuildList 30ab324b5f50efe0ae84e61547d9847cb7dbf1d6
+  projCfg 10a5cb31798e34be235f15f418b71b3b3c46d262
   projCfg.local 84cf3a7fe14b20f96c0c1cba4a28d6f0c89c69fb
-  version 0962b991e8f4adf0ed7ba0466ef93f3423c3413b
+  version 1a888212691b690b60b4255d68cec07344a335c6
  .gitignore 90de2005b1c99861dd1f7360bc9481a8ceb4dfba
- CHANGES 95cbdda03acfc56ce6faec0835ab9fe2af8589cf
+ CHANGES 477a573ece263b60f27fa75de959f426f13d2819
  LICENSE.md 74f51f2453bf0255c672fda573e816bd149ad7d5
  Makefile afaed04652326ce89e0db7864685806a2101065e
  README.md f6435e848a178b09f495ea9ed654fa139edb2059
@@ -29,20 +31,27 @@ xlreg_rb
  errors_test.rb 14e1a7c38157de025ec4a773ca3f51275242e290
  ghpDoc
   TODO 7d025bc296d76fe71a553cf0527fbd22c079f0ce
+  css
+   LICENSE.html5-boilerplate.md ded771b3245b190da0e81c76de5a80d41392c0a6
+   ghp.css 1d6ebe8a6cf8f61f4645a793cb087dfae2420f33
+   main.css 018ed80b8a6e6607bc7c08595fa5a7fa56853885
+   normalize.css cba40c7ce3d558d00ff79d7505ac3d348015ec9c
+  img
+   GitHub-Mark-32px.png fabe53eb72f9b6d3d47cd95aff31ffc45c2fdbf8
+   chunk.jpg de2b27e41f1547fc14b13399f5906b4303b49657
+   chunk2.jpg d0593d312dbb8ea837c17b28cb639726e29ea93b
+   cluster-with-clients.jpg c167d04c0c6b5736ef9fe4cdc3fcce1956fdea78
+   simple-cluster.jpg 6b223ddd25937c1ef75ef328f36fc3436f10bd62
+   xl-registration.jpg 15cbf951f9db173a45428b32dcec87aca83bbdf0
+   xlattice-2014.jpg f185aaad06db71acd9454f31054c62c56d36f37f
+   xlattice.batik.jpg debe9220564203118dc53df0f5a48d77669fe367
   index.md 9b1868e140a88374b6fb07db41e64ed1e01d401e
  hello_and_reply.rb 85f240da7e69e98b90f22e4e62eb049696301c1c
- img
-  GitHub-Mark-32px.png fabe53eb72f9b6d3d47cd95aff31ffc45c2fdbf8
-  cluster-with-clients.jpg c167d04c0c6b5736ef9fe4cdc3fcce1956fdea78
-  simple-cluster.jpg 6b223ddd25937c1ef75ef328f36fc3436f10bd62
-  xl-registration.jpg 15cbf951f9db173a45428b32dcec87aca83bbdf0
-  xlattice-2014.jpg f185aaad06db71acd9454f31054c62c56d36f37f
-  xlattice.batik.jpg debe9220564203118dc53df0f5a48d77669fe367
  installit c60c4b1a74f8691a32b7f833ffb16a2425ff70da
  p.pb.rb ec6e36bd596c07345dae70d9fc82e3872b4891e8
  p.proto 6c50df9c67a7adf8af8ff8435d5eeab311962867
  styleit bfb6f5bff8c6e2ea386fae1768cf16f80d9da569
- test.all e172bbffa118e6475be6f7869bb3db3fa8e7c31f
+ test.all b7c11781388e8d3c4bd14143c53eef154a394065
  testData
   helloAndReply
    hello-data 7d8fab0c9403cca9bfe22ec41bc3e31d3815518d
@@ -73,8 +82,8 @@ xlreg_rb
    version.str 1b390cd54a0c0d4f27fa7adf23e3c45536e9f37c
  testDataTestTemplate 8407450724e103cc445e817e2eb80186f62cc565
  testDecimalVersion.py e1ede895147baf6900b6c7f5a0da0e4a750ef379
- version.rb b3fac4b39b031e15e9b03291ddc20faa624e4e35
+ version.rb 083f1d5fb308ef65c86279c41a5ed6aeffea9758
  xlreg_errors.rb 75b23653a99b23bbcd804dfe839a0c6c7575cbf1
 # END CONTENT #
 
-BLO/lnhauoM6o43seRK628sqtRBhHN8uJPe1w7TqoglQj7D7kTMLwf2/MCtHSCaYlbVeKTFN2a3ZcsvIpz4kLXZnu+UpVBZQyjgUxfj1mzScRRNavHsgfVmA//jciPZWiFQwWWh9InO8ZNKiKLjRjuX40CEwtj/U/IABZlg/qBseHfNOfjmC4BPvR9NhKFhA5ZbeDu/g/iZswlG0LqPO4QcCH/GW6mElZnZ2WXpzJIwFCR2ZJMG46wZzRayhVf2nSX7UoDPXEEsvEJg5mSXEhDe9He2Hb2Idv7DRTJY9JSPaisE5YOfkE08GmFGFYwE4VRBt8Z1/qSvuAjsA2DvO/g==
+ABOdEKPKFf688+bspFA15C332o50NCEwNN+ZDJHzXcYbC0w+bqYV/mc76JgGm1bPGwQ+IFOI1l/Z4a2JiyaF49M22SGkNxJjDyFEp6D6+Szo+rZ72LPrVlvYgzvxZbz7aE7cI/Qz1DB1cqUjb2xAEA2gPzJ7NNJV3tdr+bBHyQ/Oof11DmiY+40g/1umMEuNXJScVEDccZE6QEd98+mHol61uf+U0BY2OBVQFI2kQi2fB8QYRlc8Ji18CHExQYGEZ8XWz0e1dC2gRlfCmBq1UyuG2pzEKaPV8qUXyjGlJznK3VNvhYXo2Uw2BgDQZ+T/gq6KtLxeRaAgBq9IBW0uCw==

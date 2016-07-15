@@ -4,7 +4,7 @@ if [ ! -z "${DEV_BASE// }" ]
 then
   cd $DEV_BASE/ruby/xlreg_rb
   
-  echo "don	 know how to test Ruby YET"
+  echo "don't know how to test Ruby YET"
   
 else
   echo "DEV_BASE is not defined"
