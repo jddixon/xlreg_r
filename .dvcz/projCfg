@@ -2,8 +2,8 @@
 project:xlreg_rb
 package:xlreg_rb
 mainlang:rb
-version:0.0.8
-versionDate:2016-06-13
+version:0.0.9
+versionDate:2016-07-15
 :?dirs?:
 dir:std:ghpDoc
 dir:std:.dvcz
@@ -23,9 +23,8 @@ code:std:/var/app/sharedev/config/projCfg
 code:local:p.proto
 code:local:Makefile
 code:local:testDataTestTemplate
-txt:std:.copyright
+txt:std:LICENSE-MIT.md
 txt:std:CHANGES
-txt:std:LICENSE.md
 txt:std:README.md
 txt:std:TODO
 bash:std:bkp2U
@@ -39,5 +38,4 @@ rb:local:decimal_version.rb
 rb:local:errors_test.rb
 rb:local:hello_and_reply.rb
 rb:local:p.pb.rb
-rb:local:version.rb
 rb:local:xlreg_errors.rb

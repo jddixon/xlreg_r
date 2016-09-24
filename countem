@@ -5,7 +5,7 @@ then
   cd $DEV_BASE/ruby/xlreg_rb
   
   
-  pySloc -L rb  -X *.pb.rb -v $@
+  pySloc -L rb   -X *.pb.rb -v $@
 else
   echo "DEV_BASE is not defined"
 fi
