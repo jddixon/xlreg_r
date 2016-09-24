@@ -1,4 +1,6 @@
 
+txt:std:LICENSE-MIT.md
+
 code:local:p.proto
 code:local:Makefile
 code:local:testDataTestTemplate
