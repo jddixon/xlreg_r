@@ -1,5 +1,8 @@
 ~/dev/ruby/xlreg_rb/CHANGES
 
+v0.0.11
+    2016-11-17
+        * updae web pages for xlReg 1.9.20                          SLOC 1036
 v0.0.10
     2016-09-24
         * standardize licensing                                     SLOC 1034
@@ -30,6 +33,7 @@ v0.0.2
 v0.0.1
     2015-04-19
         * clean up initial version                                  SLOC  240
+
 
 
 
